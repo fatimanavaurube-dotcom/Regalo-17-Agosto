@@ -1,43 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Una sorpresa está esperando...</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Una sorpresa te espera...</title>
+
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-      <!-- Fondo del espacio -->
-    <div id="space"></div>
 
-    <!-- Estrellas -->
-    <div id="stars"></div>
+<div id="space"></div>
+<div id="stars"></div>
+<div id="shooting-stars"></div>
 
-    <!-- Estrellas fugaces -->
-    <div id="shooting-stars"></div>
+<div class="container">
 
-    <!-- Caja de regalo -->
-    <div class="gift-box">
-        🎁
-    </div>
+<h1>✨ Una sorpresa te espera ✨</h1>
 
-    <!-- Contador -->
-    <div class="countdown">
-        <h1>Una sorpresa está esperando...</h1>
+<div id="countdown">
+Cargando...
+</div>
 
-        <div id="timer">
-            00 Días : 00 Horas : 00 Minutos : 00 Segundos
-        </div>
+<p class="subtitle">
+Mientras esperas, toca algunas estrellas ✨
+</p>
 
-        <p>
-            Toca las estrellas para descubrir pequeños mensajes ✨
-        </p>
-    </div>
+<div class="gift-box">
+🎁
+</div>
 
-    <script src="script.js"></script>
+<div id="message-box"></div>
+
+</div>
+
+<div id="videoSection">
+
+<h2>🎁 Tu regalo</h2>
+
+<video id="specialVideo" controls>
+<source src="video.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<div id="letterSection">
+
+<div class="letter">
+
+<h2>✉️ Para ti</h2>
+
+<p>
+Este regalo no busca mirar al pasado con tristeza, sino recordar todo lo bonito y desearte lo mejor en esta nueva etapa.
+</p>
+
+<p>
+Espero que cada meta que tengas se cumpla y que nunca te falten motivos para sonreír.
+</p>
+
+<p>
+Gracias por haber sido parte de mi historia.
+</p>
+
+<p>
+💙 Feliz 17 de agosto. 💙
+</p>
+
+</div>
+
+</div>
+
+<audio id="bells">
+<source src="bells.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
 
 </body>
 
 </html>
+HTML
